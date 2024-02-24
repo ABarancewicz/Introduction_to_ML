@@ -108,7 +108,7 @@
 
 ### What is machine learning?
 
-### Regression and Classification?
+### Regression and Classification
 
 ### Non-deep vs Deep
 
