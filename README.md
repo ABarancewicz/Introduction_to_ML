@@ -42,6 +42,8 @@
 - [Hardware for Machine Learning](#hardware)
 </details>
 
+<details open>
+
 ## Linux <a name="linux"></a>
 
 ### What is linux?
@@ -52,6 +54,7 @@
 
 ### Command line
 
+</details>
 
 
 ## Git <a name="git"></a>
