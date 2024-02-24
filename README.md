@@ -24,6 +24,7 @@
 - [Sequence Space Visualisations](#seq_vis)
   - [Principle component analysis]()
   - [t-distributed stochastic neighbour embedding]()
+  - [Uniform Manifold Approximation and Projection]()
 - [Machine Learning Introduction](#ML)
   - [What is machine learning]()
   - [Non-Deep vs Deep methods]()
