@@ -42,10 +42,15 @@
 </details>
 
 ## Linux <a name="Linux"></a>
+
 ### What is linux?
+
 ### Linux terminal
+
 ### Installing Linux
+
 ### Helpful commands
+
 
 ## Git <a name="git"></a>
 
