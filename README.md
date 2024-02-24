@@ -27,6 +27,7 @@
   - [Uniform Manifold Approximation and Projection]()
 - [Machine Learning Introduction](#ML)
   - [What is machine learning]()
+  - [Regression vs Classification]()
   - [Non-Deep vs Deep methods]()
 - [Traditional Machine Learning](#trad_ML)
   - [k-nearest neighbours]()
