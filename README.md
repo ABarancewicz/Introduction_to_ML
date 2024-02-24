@@ -5,7 +5,7 @@
 - [Linux](#linux)
   - [Installing linux]()
   - [IDE]()
-  - [Linux command]()
+  - [Command Line]()
 - [Git](#git)
   - [What is git?](#what_git)
   - [Github](#github)
