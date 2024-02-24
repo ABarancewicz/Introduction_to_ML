@@ -34,7 +34,7 @@
   - [Support vector machine]()
   - [Random forest]()
 - [Deep Learning](#deep)
-  - [Neural network]()
+  - [Neural networks]()
   - [Transformers]()
 - [Validation and selection of hyperparameters](#hyper)
 - [Implementation of Machine Learning](#implement)
