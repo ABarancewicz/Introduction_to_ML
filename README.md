@@ -3,8 +3,17 @@
 <details open><summary><b>Table of contents</b></summary>
   
 - [Linux](#linux)
+  - [Installing linux]
+  - [IDE]()
 - [Git](#git)
+  - [What is git?](#what_git)
+  - [Github](#github)
+  - [Git in command line](#cl_git)
+  - [Setting up git](#set_git)
 - [Learning Python](#python)
+  - [Intro to python](#pyth_intro)
+  - [Debugging python](#debugging)
+  - [Virtual environments](#)
 - [Data Extraction and Management](#data)
 - [Basic Theory](#basic)
   - [Calculus](#calc)
