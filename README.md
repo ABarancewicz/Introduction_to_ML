@@ -66,7 +66,7 @@
 ### Calculus <a name="calc"></a>
 
 
-### Linear Algebra <a name="alegebra"></a>
+### Linear Algebra <a name="algebra"></a>
 
 
 ## Phylogenetics <a name="phylo"></a>
