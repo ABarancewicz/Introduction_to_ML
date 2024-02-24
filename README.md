@@ -23,6 +23,7 @@
 - [Phylogenetics](#phylo)
 - [Sequence Space Visualisations](#seq_vis)
   - [Principle component analysis]()
+  - [t-distributed stochastic neighbour embedding]()
 - [Machine Learning Introduction](#ML)
 - [Traditional Machine Learning](#trad_ML)
 - [Deep Learning](#deep)
