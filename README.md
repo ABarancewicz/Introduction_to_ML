@@ -3,7 +3,7 @@
 <details open><summary><b>Table of contents</b></summary>
   
 - [Linux](#linux)
-  - [Installing linux]
+  - [Installing linux]()
   - [IDE]()
 - [Git](#git)
   - [What is git?](#what_git)
