@@ -3,6 +3,7 @@
 <details open><summary><b>Table of contents</b></summary>
   
 - [Linux](#linux)
+  - [What is Linux]()
   - [Installing linux]()
   - [IDE]()
   - [Command Line]()
@@ -45,19 +46,39 @@
 
 ### What is linux?
 
-### Linux terminal
-
 ### Installing Linux
 
-### Helpful commands
+### IDE
+
+### Command line
+
 
 
 ## Git <a name="git"></a>
 
+### What is Git?
+
+### Github 
+
+### Git in command line
+
+### Setting up git
+
+
+
 ## Learning Python <a name="python"></a>
+
+### Intro to python
+
+### Debugging python
+
+### Virtual environments
 
 
 ## Data Extraction and Management <a name="data"></a>
+
+### Data files
+
 
 
 ## Basic Theory <a name="basic"></a>
@@ -69,13 +90,27 @@
 ### Linear Algebra <a name="algebra"></a>
 
 
+
 ## Phylogenetics <a name="phylo"></a>
+
 
 
 ## Sequence Space Visualisations <a name="seq_vis"></a>
 
+### Principle component analysis
+
+### t-distributed stochastic neighbour embedding
+
+### Uniform Manifold Approximation and Projection
+
 
 ## Machine Learning Introduction <a name="ML"></a>
+
+### k-nearest neighbours
+
+### Support vector machine
+
+### Random forest
 
 
 ## Traditional Machine Learning <a name="trad_ML"></a>
