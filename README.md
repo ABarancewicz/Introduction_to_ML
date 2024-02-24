@@ -41,7 +41,7 @@
 - [Hardware for Machine Learning](#hardware)
 </details>
 
-## Linux <a name="Linux"></a>
+## Linux <a name="linux"></a>
 
 ### What is linux?
 
