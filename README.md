@@ -85,7 +85,7 @@ ChatGPT-like software to help with coding. The IDE preffered by the Jackson lab 
 ### Terminal <a name="terminal"></a>
 
 Terminal, also known as command line, is how one can directly interact with files and your computer through bash. You can think of it as a text-based version of file manager with
-more functionality. A comprehensive guide on using bash is beyond the scope of this introduction, although if you have nexer used it before, I recommend following [the software carpentry
+more functionality. A comprehensive guide on using bash is beyond the scope of this introduction, although if you have never used it before, I recommend following [the software carpentry
 Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here is a list of some basic commands you should know \(Note that a directory is just a folder\):
 - ls - list the files and directories in the current directory
 - cd - change the directory
