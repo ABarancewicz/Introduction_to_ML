@@ -101,7 +101,22 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 
 ### What is Git? <a name="what_git"></a>
 
+Git is a type of version control software which is used by developers to track changes to files and to jointly work on projects. It can be used through graphical interfaces and through
+bash. Git utalises repositories, essentially a folder to store all the files and documents related to one project. Using git to edit a remote repository \(such as on github\) follows the process:
+1. Clone - this copies the chosen remote repository to your computer. In practice this repository just becomes a folder full of all the files on the repository.
+2. Make changes to your local version of the repository
+3. Commit - this updates your local version of the repository with the changes you made
+4. Push - this updates the remote repository with the committed changes.
+
+Other terms used in git are:
+ - Fetch - This updates your local repository to match the remote repository
+ - Pull - This updates your workspace to match the remote repository
+
+For more information you can follow the [version control with git software carpentry tutorial](https://software-carpentry.org/lessons/) and read [this article](https://medium.com/@mehulgala77/github-fundamentals-clone-fetch-push-pull-fork-16d79bb16b79).
+
 ### Github <a name="github"></a>
+
+
 
 ### Git in command line <a name="cl_git"></a>
 
