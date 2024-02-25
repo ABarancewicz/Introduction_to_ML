@@ -27,11 +27,11 @@
   - [Principle component analysis]()
   - [t-distributed stochastic neighbour embedding]()
   - [Uniform Manifold Approximation and Projection]()
-- [Machine Learning Introduction](#ML)
+- [Machine Learning Introduction](#ml)
   - [What is machine learning]()
   - [Regression and Classification]()
   - [Non-Deep vs Deep methods]()
-- [Traditional Machine Learning](#trad_ML)
+- [Traditional Machine Learning](#trad_ml)
   - [k-nearest neighbours]()
   - [Support vector machine]()
   - [Random forest]()
@@ -144,7 +144,7 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 ### Uniform Manifold Approximation and Projection
 
 
-## Machine Learning Introduction <a name="ML"></a>
+## Machine Learning Introduction <a name="ml"></a>
 
 ### What is machine learning?
 
@@ -153,7 +153,7 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 ### Non-deep vs Deep
 
 
-## Traditional Machine Learning <a name="trad_ML"></a>
+## Traditional Machine Learning <a name="trad_ml"></a>
 
 ### k-nearest neighbours
 
