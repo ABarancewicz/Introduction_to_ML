@@ -17,28 +17,29 @@
 - [Learning Python](#python)
   - [Intro to python](#pyth_intro)
   - [Debugging python](#debugging)
-  - [Virtual environments](#)
+  - [Virtual environments](#venv)
 - [Data Extraction and Management](#data)
-  - [Data files]()
+  - [Data files](#files)
 - [Basic Theory](#basic)
   - [Calculus](#calc)
   - [Linear Algebra](#algebra)
 - [Phylogenetics](#phylo)
 - [Sequence Space Visualisations](#seq_vis)
-  - [Principle component analysis]()
-  - [t-distributed stochastic neighbour embedding]()
-  - [Uniform Manifold Approximation and Projection]()
+  - [Dimensionality reduction](dim_red)
+  - [Principle component analysis](#pca)
+  - [t-distributed stochastic neighbour embedding](#tsne)
+  - [Uniform Manifold Approximation and Projection](#umap)
 - [Machine Learning Introduction](#ml)
-  - [What is machine learning]()
-  - [Regression and Classification]()
-  - [Non-Deep vs Deep methods]()
+  - [What is machine learning](#what_ml)
+  - [Regression and Classification](#reg_clas)
+  - [Non-Deep vs Deep methods](non-deep_deep)
 - [Traditional Machine Learning](#trad_ml)
-  - [k-nearest neighbours]()
-  - [Support vector machine]()
-  - [Random forest]()
+  - [k-nearest neighbours](#knn)
+  - [Support vector machine](#svm)
+  - [Random forest](#rf)
 - [Deep Learning](#deep)
-  - [Neural networks]()
-  - [Transformers]()
+  - [Neural networks](#nn)
+  - [Transformers](#transformers)
 - [Validation and selection of hyperparameters](#hyper)
 - [Implementation of Machine Learning](#implement)
 - [Hardware for Machine Learning](#hardware)
@@ -98,28 +99,28 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 
 ## Git <a name="git"></a>
 
-### What is Git?
+### What is Git? <a name="what_git"></a>
 
-### Github 
+### Github <a name="github"></a>
 
-### Git in command line
+### Git in command line <a name="cl_git"></a>
 
-### Setting up git
+### Setting up git <a name="set_git"></a>
 
 
 
 ## Learning Python <a name="python"></a>
 
-### Intro to python
+### Intro to python <a name="pyth_intro"></a>
 
-### Debugging python
+### Debugging python <a name="debugging"></a>
 
-### Virtual environments
+### Virtual environments <a name="venv"></a>
 
 
 ## Data Extraction and Management <a name="data"></a>
 
-### Data files
+### Data files <a name="files"></a>
 
 
 
@@ -139,36 +140,38 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 
 ## Sequence Space Visualisations <a name="seq_vis"></a>
 
-### Principle component analysis
+### Dimensionality reduction <a name="dim_red"></a>
 
-### t-distributed stochastic neighbour embedding
+### Principle component analysis <a name="pca"></a>
 
-### Uniform Manifold Approximation and Projection
+### t-distributed stochastic neighbour embedding <a name="tsne"></a>
+
+### Uniform Manifold Approximation and Projection <a name="umap"></a>
 
 
 ## Machine Learning Introduction <a name="ml"></a>
 
-### What is machine learning?
+### What is machine learning? <a name="what_ml"></a>
 
-### Regression and Classification
+### Regression and Classification <a name="reg_clas"></a>
 
-### Non-deep vs Deep
+### Non-deep vs Deep <a name="non-deep_deep"></a>
 
 
 ## Traditional Machine Learning <a name="trad_ml"></a>
 
-### k-nearest neighbours
+### k-nearest neighbours <a name="knn"></a>
 
-### Support vector machine
+### Support vector machine <a name="svm"></a>
 
-### Random forest
+### Random forest <a name="rf"></a>
 
 
 ## Deep Learning <a name="deep"></a>
 
-### Neural Networks
+### Neural Networks <a name="nn"></a>
 
-### Transformers
+### Transformers <a name="transformers"></a>
 
 
 ## Validation and selection of hyperparameters <a name="hyper"></a>
