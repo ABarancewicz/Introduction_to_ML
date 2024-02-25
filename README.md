@@ -3,6 +3,7 @@
 
 <details open><summary><b>Table of contents</b></summary>
   
+- [About this Guide](#about)
 - [Linux](#linux)
   - [What is Linux](#what_linux)
   - [Installing linux](#install_linux)
@@ -45,7 +46,7 @@
 
 
 
-## About this guide
+## About this guide <a name="about"></a>
 This guide is made as an introduction to using modern machine learning tools in protein engineering applications. It consists of 
 this readme.md which contains a brief summary of various aspects of ML as well as links to more in-depth resources, and various 
 exercises to teach how to actually run experiments.
