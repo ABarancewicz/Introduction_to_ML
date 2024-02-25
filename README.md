@@ -1,4 +1,5 @@
 # An introduction to Machine Learning for Directed Evolution
+## By Anthony Barancewicz
 
 <details open><summary><b>Table of contents</b></summary>
   
@@ -49,7 +50,7 @@ This guide is made as an introduction to using modern machine learning tools in 
 this readme.md which contains a brief summary of various aspects of ML as well as links to more in-depth resources, and various 
 exercises to teach how to actually run experiments.
 The exercises are:
-1. Basic git and BASH - working in github repositories and running/editing scripts
+1. Basic git and bash - working in github repositories and running/editing scripts
 2. Debbuging python - using vscode debugger to analyse what scripts are doing
 3. Fundamental ML - One-hot encoding protein data and analysing with basic regression methods
 4. ESM and data extraction - Extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
@@ -63,9 +64,23 @@ The exercises are:
 
 ### What is linux?
 
+Linux is an open-source operating system which is free, reliable, and has a lot of community support. It is less user-friendly than Windows or MacOS, although
+is very powerful and customisable. The Jackson Lab uses Ubuntu as its preffered Linux distribution. For the work covered in this introduction, the most important
+aspect of Ubuntu is bash, the command processor which allows you to interact with your computer and files directly through text. If you are using a windows computer,
+you may want to consider [installing WSL](https://ubuntu.com/desktop/wsl), and if you're on mac you may want to [set bash as your default shell](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/). 
+
 ### Installing Linux
 
+If you choose to install linux onto your computer you can do so by following [Ubuntu's install instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), 
+or if you need both linux and another operating system on your computer you can look into [dual booting](https://answers.syr.edu/display/ITHELP/Dual+Booting), although 
+make sure that you look into the risks associated with dual booting and make a full system backup in case something goes wrong. 
+
 ### IDE
+
+While scripts are typically just text files and can be created and edited through a basic text editor, programmers typically install an integrated development environment \(IDE\)
+to make coding easier. IDEs typically offer features such as syntax highlighting to make code more legible, and other tools such as debugging tools and more recently integration of
+ChatGPT-like software to help with coding. The IDE preffered by the Jackson lab is [Visual Studio Code](https://code.visualstudio.com/) and can be installed in the Ubuntu software app. 
+
 
 ### Command line
 
