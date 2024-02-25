@@ -93,6 +93,7 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 - mkdir - create a new directory
 - python3 - run a python file
 - --help - enter after a function to get details on how to use it
+- sudo apt install - install a package
 
 
 ## Git <a name="git"></a>
