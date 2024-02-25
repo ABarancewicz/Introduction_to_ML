@@ -6,7 +6,7 @@
 - [Linux](#linux)
   - [What is Linux](#what_linux)
   - [Installing linux](#install_linux)
-  - [IDE](#IDE)
+  - [IDE](#ide)
   - [Terminal](#terminal)
 - [Git](#git)
   - [What is git?](#what_git)
@@ -75,7 +75,7 @@ If you choose to install linux onto your computer you can do so by following [Ub
 or if you need both linux and another operating system on your computer you can look into [dual booting](https://answers.syr.edu/display/ITHELP/Dual+Booting), although 
 make sure that you look into the risks associated with dual booting and make a full system backup in case something goes wrong. 
 
-### IDE <a name="IDE"></a>
+### IDE <a name="ide"></a>
 
 While scripts are typically just text files and can be created and edited through a basic text editor, programmers typically install an integrated development environment \(IDE\)
 to make coding easier. IDEs typically offer features such as syntax highlighting to make code more legible, and other tools such as debugging tools and more recently integration of
