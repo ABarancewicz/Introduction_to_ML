@@ -4,10 +4,10 @@
 <details open><summary><b>Table of contents</b></summary>
   
 - [Linux](#linux)
-  - [What is Linux]()
-  - [Installing linux]()
-  - [IDE]()
-  - [Command Line]()
+  - [What is Linux](#what_linux)
+  - [Installing linux](#install_linux)
+  - [IDE](#IDE)
+  - [Terminal](#terminal)
 - [Git](#git)
   - [What is git?](#what_git)
   - [Github](#github)
@@ -62,28 +62,36 @@ The exercises are:
 
 ## Linux <a name="linux"></a>
 
-### What is linux?
+### What is linux? <a name="what_linux"></a>
 
 Linux is an open-source operating system which is free, reliable, and has a lot of community support. It is less user-friendly than Windows or MacOS, although
 is very powerful and customisable. The Jackson Lab uses Ubuntu as its preffered Linux distribution. For the work covered in this introduction, the most important
 aspect of Ubuntu is bash, the command processor which allows you to interact with your computer and files directly through text. If you are using a windows computer,
 you may want to consider [installing WSL](https://ubuntu.com/desktop/wsl), and if you're on mac you may want to [set bash as your default shell](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/). 
 
-### Installing Linux
+### Installing Linux <a name="install_linux"></a>
 
 If you choose to install linux onto your computer you can do so by following [Ubuntu's install instructions](https://ubuntu.com/tutorials/install-ubuntu-desktop#1-overview), 
 or if you need both linux and another operating system on your computer you can look into [dual booting](https://answers.syr.edu/display/ITHELP/Dual+Booting), although 
 make sure that you look into the risks associated with dual booting and make a full system backup in case something goes wrong. 
 
-### IDE
+### IDE <a name="IDE"></a>
 
 While scripts are typically just text files and can be created and edited through a basic text editor, programmers typically install an integrated development environment \(IDE\)
 to make coding easier. IDEs typically offer features such as syntax highlighting to make code more legible, and other tools such as debugging tools and more recently integration of
 ChatGPT-like software to help with coding. The IDE preffered by the Jackson lab is [Visual Studio Code](https://code.visualstudio.com/) and can be installed in the Ubuntu software app. 
 
 
-### Command line
+### Terminal <a name="terminal"></a>
 
+Terminal, also known as command line, is how one can directly interact with files and your computer through bash. You can think of it as a text-based version of file manager with
+more functionality. A comprehensive guide on using bash is beyond the scope of this introduction, although if you have nexer used it before, I recommend following [the software carpentry
+Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here is a list of some basic commands you should know \(Note that a directory is just a folder\):
+- ls - list the files and directories in the current directory
+- cd - change the directory
+- mkdir - create a new directory
+- python3 - run a python file
+- --help - enter after a function to get details on how to use it
 
 
 ## Git <a name="git"></a>
