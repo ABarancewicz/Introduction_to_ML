@@ -158,7 +158,7 @@ There are many courses available to learn python, such as [Code Academy](https:/
 [LeetCode](https://leetcode.com/problemset/) is a website with many programming problems and solutions, and can be used to both learn and practice.
 This introduction assumes you are familiar with python, if you understand the following terms and how they work in python you should be ok to continue:
 
-- Functions
+- Functions \(using and defining\)
 - Classes
 - Data types (strings, floats, integers, dictionaries, lists, tuples, sets)
 - Indexing and slicing
