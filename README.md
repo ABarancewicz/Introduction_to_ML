@@ -160,7 +160,7 @@ This introduction assumes you are familiar with python, if you understand the fo
 - Functions
 - Classes
 - Data types (strings, floats, integers, dictionaries, lists, tuples, sets)
-- Indexing
+- Indexing and slicing
 - Methods
 - if/for/while statements
 - Importing and using libraries
