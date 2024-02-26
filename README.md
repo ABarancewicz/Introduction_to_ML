@@ -99,7 +99,6 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 - sudo apt install - install a package
 
 \
-\
 For more helpful commands view [this article](https://www.guru99.com/linux-commands-cheat-sheet.html).
 
 
