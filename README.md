@@ -12,8 +12,9 @@
 - [Git](#git)
   - [What is git?](#what_git)
   - [Github](#github)
-  - [Setting up git](#set_git)
   - [Git in command line](#cl_git)
+    - [Setting up git](#set_git)
+    - [Using git](#use_git)
 - [Learning Python](#python)
   - [Intro to python](#pyth_intro)
   - [Debugging python](#debugging)
@@ -58,9 +59,10 @@ The exercises are:
 4. ESM and data extraction - Extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
 5. Neural networks - Analysing a protein dataset with a basic neural network
 6. Transformers - Training a transformer to encode proteins into vectors
-
-
-
+\
+\
+Note that this introduction is not comprehensive and may contain errors. If something doesn't make sense research into it, ask for help, or use
+chatgpt to explain /(with caution/). Furthermore, it is possible that not all of the information contained in here will be relevant to your project.
 
 ## Linux <a name="linux"></a>
 
@@ -96,6 +98,10 @@ Unix Shell tutorial](https://software-carpentry.org/lessons/). Otherwise, here i
 - --help - enter after a function to get details on how to use it
 - sudo apt install - install a package
 
+\
+\
+For more helpful commands view [this article](https://www.guru99.com/linux-commands-cheat-sheet.html).
+
 
 ## Git <a name="git"></a>
 
@@ -116,11 +122,23 @@ For more information you can follow the [version control with git software carpe
 
 ### Github <a name="github"></a>
 
-
+Github is a website that offers cloud-based hosting for git repositories, allowing repositories to easily be shared both publicly and privately. It can be interacted through 
+a GUI via the [github website](https://github.com/) or [github desktop](https://desktop.github.com/). In this introduction, however, we will be interacting with Github through 
+command line.
+\
+\
+If you don't have a Github account, you should make one. You can use this to create a portfolio of coding for future employers to view. You can also join the Jackson lab github
+repository.
 
 ### Git in command line <a name="cl_git"></a>
 
-### Setting up git <a name="set_git"></a>
+#### Setting up git <a name="set_git"></a>
+
+The first step to accessing github via the command line is to [install git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html). Once git is installed you need to 
+link your computer to your github account. You can do that by following the 'Configure Git' steps in [this Gitlab article](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
+/(Gitlab is an alternative to Github, although uses the same steps). Next you need to [set up an SSH key and connect it to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh) so that your computer is authenticated when you try to access repositories. 
+
+#### Using git <a name="use_git"></a>
 
 
 
