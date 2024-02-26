@@ -141,7 +141,8 @@ link your computer to your github account. You can do that by following the 'Con
 #### Using git <a name="use_git"></a>
 
 [This article](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) explains how to clone repositories in command line and how to initialise a repository in an existing directory. 
-[Exercise 1]() is an introduction to git and bash and explains how to clone and edit repositories. 
+[Exercise 1](https://github.com/ABarancewicz/Introduction_to_ML/tree/main/E1-bash_and_git) is an introduction to git and bash and explains how to
+clone and edit repositories. 
 
 ## Python <a name="python"></a>
 
