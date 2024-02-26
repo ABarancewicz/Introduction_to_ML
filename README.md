@@ -153,6 +153,7 @@ and a very popular language for machine learning. This is because it has a huge 
 and use in your project/) which are highly optimised and can perform many tasks. These packages mean you rarely have to do much coding, instead utalising
 functions and algorithms from these packages. 
 \
+\
 There are many courses available to learn python, such as [Code Academy](https://www.codecademy.com/) and a [Software Carpentry tutorial](https://software-carpentry.org/lessons/).
 [LeetCode](https://leetcode.com/problemset/) is a website with many programming problems and solutions, and can be used to both learn and practice.
 This introduction assumes you are familiar with python, if you understand the following terms and how they work in python you should be ok to continue:
