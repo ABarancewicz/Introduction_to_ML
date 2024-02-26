@@ -61,7 +61,6 @@ The exercises are:
 5. Neural networks - Analysing a protein dataset with a basic neural network
 6. Transformers - Training a transformer to encode proteins into vectors
 
-\
 Note that this introduction is not comprehensive and may contain errors. If something doesn't make sense research into it, ask for help, or use
 chatgpt to explain /(with caution/). Furthermore, it is possible that not all of the information contained in here will be relevant to your project.
 
