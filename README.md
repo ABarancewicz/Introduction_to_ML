@@ -15,7 +15,7 @@
   - [Git in command line](#cl_git)
     - [Setting up git](#set_git)
     - [Using git](#use_git)
-- [Learning Python](#python)
+- [Python](#python)
   - [Intro to python](#pyth_intro)
   - [Debugging python](#debugging)
   - [Virtual environments](#venv)
@@ -142,7 +142,7 @@ link your computer to your github account. You can do that by following the 'Con
 [This article](https://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository) explains how to clone repositories in command line and how to initialise a repository in an existing directory. 
 [Exercise 1]() is an introduction to git and bash and explains how to clone and edit repositories. 
 
-## Learning Python <a name="python"></a>
+## Python <a name="python"></a>
 
 ### Intro to python <a name="pyth_intro"></a>
 
