@@ -53,12 +53,14 @@ This guide is made as an introduction to using modern machine learning tools in 
 this readme.md which contains a brief summary of various aspects of ML as well as links to more in-depth resources, and various 
 exercises to teach how to actually run experiments.
 The exercises are:
+
 1. Basic git and bash - working in github repositories and running/editing scripts
 2. Debbuging python - using vscode debugger to analyse what scripts are doing
 3. Fundamental ML - One-hot encoding protein data and analysing with basic regression methods
 4. ESM and data extraction - Extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
 5. Neural networks - Analysing a protein dataset with a basic neural network
 6. Transformers - Training a transformer to encode proteins into vectors
+
 \
 \
 Note that this introduction is not comprehensive and may contain errors. If something doesn't make sense research into it, ask for help, or use
