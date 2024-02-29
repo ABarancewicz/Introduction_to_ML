@@ -108,7 +108,7 @@ For more helpful commands view [this article](https://www.guru99.com/linux-comma
 ### What is Git? <a name="what_git"></a>
 
 Git is a type of version control software which is used by developers to track changes to files and to jointly work on projects. It can be used through graphical interfaces and through
-bash. Git utalises repositories, essentially a folder to store all the files and documents related to one project. Using git to edit a remote repository \(such as on github\) follows the process:
+bash. Git utilises repositories, essentially a folder to store all the files and documents related to one project. Using git to edit a remote repository \(such as on github\) follows the process:
 1. Clone - this copies the chosen remote repository to your computer. In practice this repository just becomes a folder full of all the files on the repository.
 2. Make changes to your local version of the repository
 3. Commit - this updates your local version of the repository with the changes you made
