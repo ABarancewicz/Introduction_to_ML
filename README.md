@@ -136,7 +136,7 @@ repository.
 
 The first step to accessing github via the command line is to [install git](https://docs.gitlab.com/ee/topics/git/how_to_install_git/index.html). Once git is installed you need to 
 link your computer to your github account. You can do that by following the 'Configure Git' steps in [this Gitlab article](https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html)
-/(Gitlab is an alternative to Github, although uses the same steps). Next you need to [set up an SSH key and connect it to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh) so that your computer is authenticated when you try to access repositories. 
+(Gitlab is an alternative to Github, although uses the same steps). Next you need to [set up an SSH key and connect it to Github](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh) so that your computer is authenticated when you try to access repositories. 
 
 #### Using git <a name="use_git"></a>
 
@@ -149,8 +149,8 @@ clone and edit repositories.
 ### Intro to python <a name="pyth_intro"></a>
 
 Python is a high level language designed to be easy to use and powerful. It is the language of choice for many scientists for more general applications,
-and a very popular language for machine learning. This is because it has a huge community which create packages /(libraries of code that you can import 
-and use in your project/) which are highly optimised and can perform many tasks. These packages mean you rarely have to do much coding, instead utalising
+and a very popular language for machine learning. This is because it has a huge community which create packages (libraries of code that you can import 
+and use in your project) which are highly optimised and can perform many tasks. These packages mean you rarely have to do much coding, instead utilising
 functions and algorithms from these packages. 
 \
 \
