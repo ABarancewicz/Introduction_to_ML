@@ -204,13 +204,11 @@ This introduction assumes you are familiar with python, if you understand the fo
 
 ## Sequence Space Visualisations <a name="seq_vis"></a>
 
-### Dimensionality reduction <a name="dim_red"></a>
-
 ### Principle component analysis <a name="pca"></a>
 
 ### t-distributed stochastic neighbour embedding <a name="tsne"></a>
 
-### Uniform Manifold Approximation and Projection <a name="umap"></a>
+### Uniform Manifold Approximation anvid Projection <a name="umap"></a>
 
 
 ## Machine Learning Introduction <a name="ml"></a>
@@ -225,6 +223,10 @@ This introduction assumes you are familiar with python, if you understand the fo
 ## Traditional Machine Learning <a name="trad_ml"></a>
 
 ### k-nearest neighbours <a name="knn"></a>
+
+k-nearest neighbours is one of the simplest methods of ML-based classification and regression. It works by calculating the distance between the query point and points in the training data set. It then calculates the target variable as the average of the closest k datapoints, weighted based on how close they are to the query point. 
+\
+[This IBM article](https://www.ibm.com/topics/knn) provides a great explanation of knn. 
 
 ### Support vector machine <a name="svm"></a>
 
