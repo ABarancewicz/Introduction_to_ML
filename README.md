@@ -42,6 +42,7 @@
   - [k-nearest neighbours](#knn)
   - [Support vector machine](#svm)
   - [Random forest](#rf)
+  - [Gaussian process](#gaussian)
 - [Deep Learning](#deep)
   - [Backprop](#)
   - [Neural networks](#nn)
@@ -228,6 +229,8 @@ This introduction assumes you are familiar with python, if you understand the fo
 ### Support vector machine <a name="svm"></a>
 
 ### Random forest <a name="rf"></a>
+
+### Gaussian Process <a name="gaussian"></a>
 
 
 ## Deep Learning <a name="deep"></a>
