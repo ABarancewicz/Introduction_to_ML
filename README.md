@@ -194,7 +194,7 @@ This introduction assumes you are familiar with python, if you understand the fo
 
 ### Linear Algebra <a name="algebra"></a>
 
-### Dimensionality Reduction <a name="dim_red"</a>
+### Dimensionality Reduction <a name="dim_red"></a>
 
 
 ## Phylogenetics <a name="phylo"></a>
