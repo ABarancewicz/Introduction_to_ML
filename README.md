@@ -24,7 +24,6 @@
 - [Basic Theory](#basic)
   - [Calculus](#calc)
   - [Linear Algebra](#algebra)
-  - [Differential calc]
   - [Dimensionality reduction](dim_red)
 - [Phylogenetics](#phylo)
 - [Sequence Space Visualisations](#seq_vis)
@@ -36,20 +35,23 @@
   - [Regression and Classification](#reg_clas)
   - [Non-Deep vs Deep methods](non-deep_deep)
 - [Vector representations]
+  - [One-hot encoding](#one-hot)
+  - [Biophys properties?]()
+  - [ESM](#)
 - [Traditional Machine Learning](#trad_ml)
   - [k-nearest neighbours](#knn)
   - [Support vector machine](#svm)
   - [Random forest](#rf)
 - [Deep Learning](#deep)
-  - [Backprop]
+  - [Backprop]()
   - [Neural networks](#nn)
   - [Transformers](#transformers)
 - [Validation and selection of hyperparameters](#hyper)
 - [Implementation of Machine Learning](#implement)
-  - [Scikit Learn]
-  - [Pytorch]
-  - [Pytorch lightning]
-  - [Hugging face]
+  - [Scikit Learn]()
+  - [Pytorch]()
+  - [Pytorch lightning]()
+  - [Hugging face]()
 - [Hardware for Machine Learning](#hardware)
 </details>
 
