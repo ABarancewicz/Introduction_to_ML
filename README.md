@@ -208,7 +208,7 @@ This introduction assumes you are familiar with python, if you understand the fo
 
 ### t-distributed stochastic neighbour embedding <a name="tsne"></a>
 
-### Uniform Manifold Approximation anvid Projection <a name="umap"></a>
+### Uniform Manifold Approximation and Projection <a name="umap"></a>
 
 [This explanation](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html) is good.
 
