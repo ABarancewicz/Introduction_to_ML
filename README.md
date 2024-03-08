@@ -210,6 +210,8 @@ This introduction assumes you are familiar with python, if you understand the fo
 
 ### Uniform Manifold Approximation anvid Projection <a name="umap"></a>
 
+[This explanation](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html) is good.
+
 
 ## Machine Learning Introduction <a name="ml"></a>
 
