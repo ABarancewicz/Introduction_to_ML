@@ -236,7 +236,7 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 ### Random forest <a name="rf"></a>
 
 ### Gaussian Process <a name="gaussian"></a>
-
+[Covariance matrix explained](https://www.youtube.com/watch?v=152tSYtiQbw)
 
 ## Deep Learning <a name="deep"></a>
 
