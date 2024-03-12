@@ -238,6 +238,8 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 ### Gaussian Process <a name="gaussian"></a>
 [Covariance matrix explained](https://www.youtube.com/watch?v=152tSYtiQbw)
 \
+[Basic gaussian process](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
+\
 [Gaussian process explained](https://distill.pub/2019/visual-exploration-gaussian-processes/#Multivariate)
 
 ## Deep Learning <a name="deep"></a>
