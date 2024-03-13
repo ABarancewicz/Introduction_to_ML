@@ -218,9 +218,20 @@ This introduction assumes you are familiar with python, if you understand the fo
 
 ### What is machine learning? <a name="what_ml"></a>
 
+Machine learning (ML) is the term used to describe the training of a mode, based on provided data. The training and use of a machine learning model may typically look like:
+1. Data selection and preparation. Appropriate data is chosen and processed in a way that can be fed into an algorithm.
+2. Algorithm selection. Based on the chosen aim and dataset an appropriate algorithm must be chosen. Some commonly used types of algorythms are listed in the [non-deep]() and [deep]() ML sections of this guide. 
+3.  Model training. The prepared data is split into a training set and validation set. The model's parameters are optimised to the training set. The validation set is used to verify that improvement in model performance is due to learning meaningful patterns in the data, and not just 'memorising' the training dataset.
+4.  Using the model. Once the model is trained it can be applied to any collected or simulated data. 
+
+
 ### Regression and Classification <a name="reg_clas"></a>
 
+
+
 ### Non-deep vs Deep <a name="non-deep_deep"></a>
+
+### Supervised vs Non-supervised <a name="sup_nonsup"></a>
 
 
 ## Traditional Machine Learning <a name="trad_ml"></a>
@@ -236,6 +247,8 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 ### Random forest <a name="rf"></a>
 
 ### Gaussian Process <a name="gaussian"></a>
+
+
 [Covariance matrix explained](https://www.youtube.com/watch?v=152tSYtiQbw)
 \
 [Basic gaussian process](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
