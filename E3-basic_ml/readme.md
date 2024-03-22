@@ -26,7 +26,7 @@ The way that we will do all this is:
 Just to reemphasise, none of these steps are necessarily the best way of creating an accurate model, although they do demonstrate the general process that is required.
 
 ## Setting up a working environment for this exercise
-It is recommended that you create a directory for this exercise \(or clone this repository and work in E3-Basic_ML\) and work in a.ipynb file so you can easily write and run your code in chunks. 
+It is recommended that you create a directory for this exercise \(or clone this repository and work in this directory\) and work in a.ipynb file so you can easily write and run your code in chunks. You also should work with a python virtual environment created for this introduction to ML.
 
 
 
