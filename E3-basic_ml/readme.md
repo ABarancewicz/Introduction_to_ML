@@ -28,5 +28,6 @@ Just to reemphasise, none of these steps are necessarily the best way of creatin
 ## Setting up a working environment for this exercise
 It is recommended that you create a directory for this exercise \(or clone this repository and work in this directory\) and work in a.ipynb file so you can easily write and run your code in chunks. You also should work with a python virtual environment created for this introduction to ML.
 
-
+## Step 1: Retrieving sequences from UniProt
+The first step is to retrieve sequences corresponding to our proteins. 
 
