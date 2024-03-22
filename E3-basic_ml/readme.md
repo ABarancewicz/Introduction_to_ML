@@ -29,5 +29,16 @@ Just to reemphasise, none of these steps are necessarily the best way of creatin
 It is recommended that you create a directory for this exercise \(or clone this repository and work in this directory\) and work in a.ipynb file so you can easily write and run your code in chunks. You also should work with a python virtual environment created for this introduction to ML.
 
 ## Step 1: Retrieving sequences from UniProt
-The first step is to retrieve sequences corresponding to our proteins. 
+The first step is to retrieve sequences corresponding to our proteins. See if you can retrieve all sequences with a gene name corresponding to the 'sistematic name' or 'gene name' columns in our [data csv file](https://github.com/ABarancewicz/Introduction_to_ML/blob/main/E3-basic_ml/yeast_gene_tr.csv) from the [UniProt ID mapping tool](https://www.uniprot.org/id-mapping). Note that some proteins may be listed under both the systematic name and gene name, resulting in multiple of the same sequence being retrieved, we will fix this later. The output of the UniProt ID mapping tool should be able to be downloaded as a FASTA file. If you cannot get this to work you can continue this exercise with [unprocessed.fasta](https://github.com/ABarancewicz/Introduction_to_ML/blob/main/E3-basic_ml/unprocessed.fasta)
 
+## Step 2: Formatting our FASTA file to include transcription rates and contain no duplicates
+The next step is to neatly organise our data. This means we need to remove any duplicates from the FASTA file we just retrieved, and make the headers of each sequence more informative. We will be using the 'TR \(mol/min\) dilution corrected' as the target variable that we are trying to model, which we will call tr. A good format for a FASTA file here is something like this:
+```
+>gene_name|tr
+protein_sequence
+>gene_name|tr
+protein_sequence
+```
+Try to use google and ChatGPT to generate such a FASTA file called 'processed.fasta'. If you get stuck you can refer to [E3-basic_ml.ipynb](https://github.com/ABarancewicz/Introduction_to_ML/blob/main/E3-basic_ml/E3_basic_ML.ipynb).
+
+## Step 3: One-hot encoding the protein sequences
