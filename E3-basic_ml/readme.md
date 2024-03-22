@@ -47,7 +47,7 @@ Try to use google and ChatGPT to generate such a FASTA file called 'processed.fa
 From processed.fasta we now want to get a list of one-hot encoded protein sequences and a corresponding list of tr values. To one-hot encode our sequences we will use [scikit_learn's OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) as it has much more functionality than any script that we or ChatGPT would write. Take note of what input OneHotEncoder expects and try to parse through processed.fasta and generate a sequences variable in the correct format, and a tr variable with the corresponding tr values. 
 
 ## Step 4: Splitting data into testing and training datasets
-
+Now that we have our vectorised data we need to split it into testing and training subsets. To do this we will use [scikit_learn's train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) function. 
 
 ## Step 5: Dimensionality reduction
 
