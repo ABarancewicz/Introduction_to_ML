@@ -11,4 +11,7 @@ The pipeline we will follow for this exercise is:
 4. Train a knn model with a training subset of our data
 5. Test how well our model works with the testing subset of our data
 
+/
+## How to use this exercise
+In the E3 directory there is this readme.md which contains the general overview of the exercise, [this jupyter notebook](https://github.com/ABarancewicz/Introduction_to_ML/blob/main/E3%20-%20Basic%20ML/E3_basic_ML.ipynb) which contains the completed code required for this project, and various files containing 
 
