@@ -42,3 +42,15 @@ protein_sequence
 Try to use google and ChatGPT to generate such a FASTA file called 'processed.fasta'. If you get stuck you can refer to [E3-basic_ml.ipynb](https://github.com/ABarancewicz/Introduction_to_ML/blob/main/E3-basic_ml/E3_basic_ML.ipynb).
 
 ## Step 3: One-hot encoding the protein sequences
+From processed.fasta we now want to get a list of one-hot encoded protein sequences and a corresponding list of tr values. To one-hot encode our sequences we will use [scikit_learn's OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) as it has much more functionality than any script that we or ChatGPT would write. Take note of what input OneHotEncoder expects and try to parse through processed.fasta and generate a sequences variable in the correct format, and a tr variable with the corresponding tr values. 
+
+## Step 4: Dimensionality reduction
+
+
+## Step 5: Training a k-nearest neighbours model
+
+
+## Step 6: Testing our k-nearest neighbours model
+
+
+
