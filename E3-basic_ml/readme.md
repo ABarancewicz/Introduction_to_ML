@@ -52,7 +52,7 @@ A result of one-hot encoding our protein sequences is greatly increasing the num
 Now that we have our vectorised data we need to split it into testing and training subsets. To do this we will use [scikit_learn's train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) function. 
 
 ## Step 5: Dimensionality reduction
-Dimensionality reduction is a standard way to reduce the size of data while maintaining salient features of the data. This is done to visually show clustering of data and to reduce the amount of data being fed into algorithms, which speeds up computation. 
+Dimensionality reduction is a standard way to reduce the size of data while maintaining salient features of the data. This is done to visually show clustering of data and to reduce the amount of data being fed into algorithms, which speeds up computation. Using scikit_learn we will try [PCA]
 
 ## Step 6: Training a k-nearest neighbours model
 
