@@ -46,11 +46,13 @@ Try to use google and ChatGPT to generate such a FASTA file called 'processed.fa
 ## Step 3: One-hot encoding the protein sequences
 From processed.fasta we now want to get a list of one-hot encoded protein sequences and a corresponding list of tr values. To one-hot encode our sequences we will use [scikit_learn's OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) as it has much more functionality than any script that we or ChatGPT would write. Take note of what input OneHotEncoder expects and try to parse through processed.fasta and generate a sequences variable in the correct format, and a tr variable with the corresponding tr values. 
 
+A result of one-hot encoding our protein sequences is greatly increasing the number of dimensions, as each position gets seperated into a feature for each amino acid found at that position. When I ran this one_hot_sequences ended up being a matrix with 1306 rows and 40539 columns \(you can check yours with one_hot_sequences.shape\). Another result is that our data is very sparse, meaning most features are 0.
+
 ## Step 4: Splitting data into testing and training datasets
 Now that we have our vectorised data we need to split it into testing and training subsets. To do this we will use [scikit_learn's train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) function. 
 
 ## Step 5: Dimensionality reduction
-
+Dimensionality reduction is a standard way to reduce the size of data while maintaining salient features of the data. This is done to visually show clustering of data and to reduce the amount of data being fed into algorithms, which speeds up computation. 
 
 ## Step 6: Training a k-nearest neighbours model
 
