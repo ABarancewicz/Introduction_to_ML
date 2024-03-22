@@ -12,16 +12,18 @@ The first step to getting started is to make it clear to ourselves what we aim t
 To set it out clearly, we need to:
 1. Retrieve sequences corresponding to proteins in our dataset
 2. Vectorise these sequences
-3. Reduce dimensionality
-4. Train a model
-5. Test our model
+3. Split our data into testing and training subsets
+4. Reduce dimensionality
+5. Train a model
+6. Test our model
 
 The way that we will do all this is:
 1. Retrieve relevant protein sequences from UniProt
 2. One-hot encode protein sequences
-3. Reduce dimensionality with PCA, TSNE, and TSVD and look for clustering
-4. Train a knn model with a training subset of our data
-5. Test how well our model works with the testing subset of our data
+3. Split our data into testing and training subsets
+4. Reduce dimensionality with PCA, TSNE, and TSVD and look for clustering
+5. Train a knn model with a training subset of our data
+6. Test how well our model works with the testing subset of our data
 
 Just to reemphasise, none of these steps are necessarily the best way of creating an accurate model, although they do demonstrate the general process that is required.
 
@@ -44,13 +46,16 @@ Try to use google and ChatGPT to generate such a FASTA file called 'processed.fa
 ## Step 3: One-hot encoding the protein sequences
 From processed.fasta we now want to get a list of one-hot encoded protein sequences and a corresponding list of tr values. To one-hot encode our sequences we will use [scikit_learn's OneHotEncoder](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.OneHotEncoder.html) as it has much more functionality than any script that we or ChatGPT would write. Take note of what input OneHotEncoder expects and try to parse through processed.fasta and generate a sequences variable in the correct format, and a tr variable with the corresponding tr values. 
 
-## Step 4: Dimensionality reduction
+## Step 4: Splitting data into testing and training datasets
 
 
-## Step 5: Training a k-nearest neighbours model
+## Step 5: Dimensionality reduction
 
 
-## Step 6: Testing our k-nearest neighbours model
+## Step 6: Training a k-nearest neighbours model
+
+
+## Step 7: Testing our k-nearest neighbours model
 
 
 
