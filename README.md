@@ -67,10 +67,11 @@ The exercises are:
 
 1. Basic git and bash - working in github repositories and running/editing scripts
 2. Debbuging python - using vscode debugger to analyse what scripts are doing
-3. Fundamental ML - One-hot encoding protein data and analysing with basic regression methods
-4. ESM and data extraction - Extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
-5. Neural networks - Analysing a protein dataset with a basic neural network
-6. Transformers - Training a transformer to encode proteins into vectors
+3. Fundamental ML - one-hot encoding protein data and analysing with basic regression methods
+4. Hyperparameter tuning - using GridSearch CV and RandomSearch CV to optimise hyperparameters
+5. ESM and data extraction - extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
+6. Neural networks - analysing a protein dataset with a basic neural network
+7. Transformers - training a transformer to encode proteins into vectors
 
 Note that this introduction is not comprehensive and may contain errors. If something doesn't make sense research into it, ask for help, or use
 chatgpt to explain (with caution). Furthermore, it is possible that not all of the information contained in here will be relevant to your project.
