@@ -84,6 +84,7 @@ Linux is an open-source operating system which is free, reliable, and has a lot 
 is very powerful and customisable. The Jackson Lab uses Ubuntu as its preffered Linux distribution. For the work covered in this introduction, the most important
 aspect of Ubuntu is bash, the command processor which allows you to interact with your computer and files directly through text. If you are using a windows computer,
 you may want to consider [installing WSL](https://ubuntu.com/desktop/wsl), and if you're on mac you may want to [set bash as your default shell](https://www.howtogeek.com/444596/how-to-change-the-default-shell-to-bash-in-macos-catalina/). 
+Note: it is likely that everything we do could be done on windows, although you would need to research how to do so as terminal syntax will be different.
 
 ### Installing Linux <a name="install_linux"></a>
 
