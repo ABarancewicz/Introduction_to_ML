@@ -198,7 +198,7 @@ This introduction assumes you are familiar with python, if you understand the fo
 ### Linear Algebra <a name="algebra"></a>
 
 ### Dimensionality Reduction <a name="dim_red"></a>
-
+Note: dimensionality reduction methods should be fit to the training dataset without the testing dataset. If they are fit to the total dataset it is a form of [data leakage](https://datascientest.com/en/data-leakage-definition-and-prevention) and means validation with your testing dataset may not accurately reflect your models accuracy.
 
 ## Phylogenetics <a name="phylo"></a>
 
