@@ -52,12 +52,12 @@ A result of one-hot encoding our protein sequences is greatly increasing the num
 Now that we have our vectorised data we need to split it into testing and training subsets. To do this we will use [scikit_learn's train_test_split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html) function. 
 
 ## Step 5: Dimensionality reduction
-Dimensionality reduction is a standard way to reduce the size of data while maintaining salient features of the data. This is done to visually show clustering of data and to reduce the amount of data being fed into algorithms, which speeds up computation. Using scikit_learn we will try [PCA]
+Dimensionality reduction is a standard way to reduce the size of data while maintaining salient features of the data. This is done to visually show clustering of data and to reduce the amount of data being fed into algorithms, which speeds up computation. Using scikit_learn we will try [PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html), [TSVD](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.TruncatedSVD.html), and [TSME](https://scikit-learn.org/stable/modules/generated/sklearn.manifold.TSNE.html) on our training datasets.
 
-## Step 6: Training a k-nearest neighbours model
+Since our data is very sparse, these dimensionality reduction techniques don't work very well to visualise patterns in the data. It is, however, a good example of how differently these methods transform data. Compare the shapes of the graphs of components 1 and 2 of each technique. 
 
+## Step 6: Testing and training a k-nearest neighbours model
+Now that we have reduced the dimensionality of our data, we can train our knn model. We will be using [scikit learn's knn regressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html). You can try training on any or all of the dimensionality reduced training sets, and testing the model's accuracy against the testing dataset \(processed with the same dimensionality reduction model\). 
 
-## Step 7: Testing our k-nearest neighbours model
-
-
-
+## Step 7: Improving this experiment
+Think about the ways that we could improve this experiment. How could we optimise our knn hyperparameters? What vectorisation methods may give us more informative data? What other regressor architectures could yield better results?
