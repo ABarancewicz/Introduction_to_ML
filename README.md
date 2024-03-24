@@ -197,9 +197,18 @@ make sure you don't blindly trust what it gives you. To get the most out of Chat
 - What your variables and files are called
 - What exactly you are trying to do
 
+### Libraries
+Python libraries are collections of functions that can be downloaded and imported. Each one is generally built for a specific purpose, and effective use of pacakages is essential 
+to creating efficient (libraries are often highly optimised) and concise code. Some notable packages that we will use are:
+- Numpy: allows for the creation of very efficient dataframes/matricies for fast computation
+- Pandas: data analysis and manipulation
+- Scikit Learn: machine learning tools
+- MatPlotLib: data visualisation
+- Pytorch: deep learning tools
+
 ### Virtual environments <a name="venv"></a>
 Virtual environments are considered to be best practice when working with Python, but what are they? A virtual environment is essentially a place where 
-you can install python packages without them being installed system-wide. By default, whenever you install a package into python it is installed into a 
+you can install python libraries without them being installed system-wide. By default, whenever you install a package into python it is installed into a 
 folder in your base python installation. This means that when you install a package it will be present in all your python projects. This can make your python
 gloval environment cluttered and can lead to reproducibility issues due to having many packages installed and not knowing which packages are required. 
 
@@ -209,18 +218,6 @@ your project, and others can easily reproduce your virtual environment so that t
 
 For a guide on how to use venv you can look at [this article](https://realpython.com/python-virtual-environments-a-primer/) or the [python documentation](https://docs.python.org/3/library/venv.html).
 It is recommended that you make a virtual environment to use for all of the exercises in this guide.
-
-### Packages
-
-#### pandas
-
-#### numpy
-
-#### scipy
-
-#### pytorch
-
-#### Scikit_learn
 
 
 
