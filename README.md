@@ -98,7 +98,6 @@ While scripts are typically just text files and can be created and edited throug
 to make coding easier. IDEs typically offer features such as syntax highlighting to make code more legible, and other tools such as debugging tools and more recently integration of
 ChatGPT-like software to help with coding. The IDE preffered by the Jackson lab is [Visual Studio Code](https://code.visualstudio.com/) and can be installed in the Ubuntu software app. 
 
-
 ### Terminal <a name="terminal"></a>
 
 Terminal, also known as command line, is how one can directly interact with files and your computer through bash. You can think of it as a text-based version of file manager with
@@ -112,7 +111,6 @@ of some basic commands you should know \(Note that a directory is just a folder\
 - --help - enter after a function to get details on how to use it
 - sudo apt install - install a package
 
-\
 For more helpful commands view [this article](https://www.guru99.com/linux-commands-cheat-sheet.html).
 
 
@@ -138,8 +136,7 @@ For more information you can follow the [version control with git software carpe
 Github is a website that offers cloud-based hosting for git repositories, allowing repositories to easily be shared both publicly and privately. It can be interacted through 
 a GUI via the [github website](https://github.com/) or [github desktop](https://desktop.github.com/). In this introduction, however, we will be interacting with Github through 
 command line.
-\
-\
+
 If you don't have a Github account, you should make one. You can use this to create a portfolio of coding for future employers to view. You can also join the Jackson lab github
 repository.
 
@@ -179,7 +176,26 @@ This introduction assumes you are familiar with python, if you understand the fo
 - Importing and using libraries
 
 
-### Debugging python <a name="debugging"></a>
+### Understanding and debugging python <a name="debugging"></a>
+When you code in python you will inevitably run into errors or not understand what your code is doing. The key to debugging code is to understand it, and regardless of 
+whether your code is working or not it is always good to understand how it works. 
+
+The first thing to do is make sure you understand the functions that you use in their code. All functions that you use that are from base python or any popular libraries will
+have good documentation explaining what functions expect as inputs, what they provide as outputs, and the various parameters of the function. Take a look at [the numpy log function](https://numpy.org/doc/stable/reference/generated/numpy.log.html)
+to familiarise yourself with documentation. What data types are expected in input? What does the function do? What is the datatype of the output? 
+
+Another good idea is to look at how your data flows through your code. You can do this by using print() statements to look at different variables at different stages of code, 
+or you can use the debugging mode in VScode to step through line by line and/or at specified break points and look at how variables change. 
+
+If all else fails, google and ChatGPT often have the solutions to your problems. Google will often give links to articles or Stack Overflow threads that are written by real people, 
+often experienced programmers. This means that often these solutions are correct, although may need some work to fit into your code. ChatGPT can provide tailored feedback on your code,
+although is also prone to making things up. It can be very useful, as the amount of code and literature it has been trained on it enormous, but it is important to remember it has no 
+actual understanding of what it says (especially for complicated or uncommon code). It can also be great for writing code and finding functions and can save you a lot of time, although
+make sure you don't blindly trust what it gives you. To get the most out of ChatGPT I suggest that you be specific about:
+- What language you are coding in
+- What datatypes your variables are
+- What your variables and files are called
+- What exactly you are trying to do
 
 ### Virtual environments <a name="venv"></a>
 Virtual environments are considered to be best practice when working with Python, but what are they? A virtual environment is essentially a place where 
@@ -193,6 +209,21 @@ your project, and others can easily reproduce your virtual environment so that t
 
 For a guide on how to use venv you can look at [this article](https://realpython.com/python-virtual-environments-a-primer/) or the [python documentation](https://docs.python.org/3/library/venv.html).
 It is recommended that you make a virtual environment to use for all of the exercises in this guide.
+
+### Packages
+
+#### pandas
+
+#### numpy
+
+#### scipy
+
+#### pytorch
+
+#### Scikit_learn
+
+
+
 ## Data Extraction and Management <a name="data"></a>
 
 ### Data files <a name="files"></a>
