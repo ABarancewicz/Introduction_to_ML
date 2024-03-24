@@ -165,13 +165,12 @@ Python is a high level language designed to be easy to use and powerful. It is t
 and a very popular language for machine learning. This is because it has a huge community which create packages (libraries of code that you can import 
 and use in your project) which are highly optimised and can perform many tasks. These packages mean you rarely have to do much coding, instead utilising
 functions and algorithms from these packages. 
-\
-\
+
 There are many courses available to learn python, such as [Code Academy](https://www.codecademy.com/) and a [Software Carpentry tutorial](https://software-carpentry.org/lessons/).
 [LeetCode](https://leetcode.com/problemset/) is a website with many programming problems and solutions, and can be used to both learn and practice.
 This introduction assumes you are familiar with python, if you understand the following terms and how they work in python you should be ok to continue:
 
-- Functions \(using and defining\)
+- Functions (using and defining)
 - Classes
 - Data types (strings, floats, integers, dictionaries, lists, tuples, sets)
 - Indexing and slicing
@@ -183,8 +182,17 @@ This introduction assumes you are familiar with python, if you understand the fo
 ### Debugging python <a name="debugging"></a>
 
 ### Virtual environments <a name="venv"></a>
+Virtual environments are considered to be best practice when working with Python, but what are they? A virtual environment is essentially a place where 
+you can install python packages without them being installed system-wide. By default, whenever you install a package into python it is installed into a 
+folder in your base python installation. This means that when you install a package it will be present in all your python projects. This can make your python
+gloval environment cluttered and can lead to reproducibility issues due to having many packages installed and not knowing which packages are required. 
 
+Instead, good practice is to make a virtual environment for every project you work on. This means that you can install only the packages that are needed for 
+your project, and others can easily reproduce your virtual environment so that they can run your code. The way that these environments are created is with the 
+[venv command](https://docs.python.org/3/library/venv.html), and packages can be installed with [pip install](https://packaging.python.org/en/latest/tutorials/installing-packages/).
 
+For a guide on how to use venv you can look at [this article](https://realpython.com/python-virtual-environments-a-primer/) or the [python documentation](https://docs.python.org/3/library/venv.html).
+It is recommended that you make a virtual environment to use for all of the exercises in this guide.
 ## Data Extraction and Management <a name="data"></a>
 
 ### Data files <a name="files"></a>
