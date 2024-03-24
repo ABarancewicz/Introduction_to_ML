@@ -69,7 +69,7 @@ The exercises are:
 2. Debbuging python - using vscode debugger to analyse what scripts are doing
 3. [Fundamental ML](https://github.com/ABarancewicz/Introduction_to_ML/tree/main/E3-basic_ml) - one-hot encoding protein data and analysing with basic regression methods
 4. Hyperparameter tuning - using GridSearch CV and RandomSearch CV to optimise hyperparameters
-5. ESM and data extraction - extracting relevant information from a csv file, encoding with ESM, and analysing with basic regression
+5. ESM - encoding sequences with ESM, and analysing with basic regression
 6. Neural networks - analysing a protein dataset with a basic neural network
 7. Transformers - training a transformer to encode proteins into vectors
 
