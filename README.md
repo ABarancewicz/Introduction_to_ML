@@ -280,7 +280,7 @@ Machine learning (ML) is the term used to describe the training of a mode, based
 ### k-nearest neighbours <a name="knn"></a>
 
 k-nearest neighbours is one of the simplest methods of ML-based classification and regression. It works by calculating the distance between the query point and points in the training data set. It then calculates the target variable as the average of the closest k datapoints, weighted based on how close they are to the query point. 
-\
+
 [This IBM article](https://www.ibm.com/topics/knn) provides a great explanation of knn. 
 
 ### Support vector machine <a name="svm"></a>
@@ -291,9 +291,9 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 
 
 [Covariance matrix explained](https://www.youtube.com/watch?v=152tSYtiQbw)
-\
+
 [Basic gaussian process](https://towardsdatascience.com/an-intuitive-guide-to-gaussian-processes-ec2f0b45c71d)
-\
+
 [Gaussian process explained](https://distill.pub/2019/visual-exploration-gaussian-processes/#Multivariate)
 
 ## Deep Learning <a name="deep"></a>
