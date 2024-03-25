@@ -301,7 +301,7 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 
 
 ## Validation and selection of hyperparameters <a name="hyper"></a>
-
+Whatever is in scikit learn for basic regression. Weights & biases for deep learning.
 
 ## Implementation of Machine Learning <a name="implement"></a>
 
