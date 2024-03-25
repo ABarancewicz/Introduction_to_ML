@@ -60,4 +60,4 @@ Since our data is very sparse, these dimensionality reduction techniques don't w
 Now that we have reduced the dimensionality of our data, we can train our knn model. We will be using [scikit learn's knn regressor](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsRegressor.html). You can try training on any or all of the dimensionality reduced training sets, and testing the model's accuracy against the testing dataset \(processed with the same dimensionality reduction model\). 
 
 ## Step 7: Improving this experiment
-Think about the ways that we could improve this experiment. How could we optimise our knn hyperparameters? What vectorisation methods may give us more informative data? What other regressor architectures could yield better results?
+Think about the ways that we could improve this experiment. How could we optimise our knn hyperparameters? What vectorisation methods may give us more informative data? What other regressor architectures could yield better results? What challenges make this dataset particularly difficult to analyse?
