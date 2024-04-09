@@ -247,6 +247,8 @@ Note: dimensionality reduction methods should be fit to the training dataset wit
 
 ### t-distributed stochastic neighbour embedding <a name="tsne"></a>
 
+[This explanation](https://distill.pub/2016/misread-tsne/)
+
 ### Uniform Manifold Approximation and Projection <a name="umap"></a>
 
 [This explanation](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html) is good.
