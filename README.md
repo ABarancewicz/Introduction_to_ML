@@ -299,8 +299,14 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 
 ### Neural Networks <a name="nn"></a>
 
-### Transformers <a name="transformers"></a>
+[Pytorch Lightning tutorial](https://lightning.ai/courses/deep-learning-fundamentals/)
 
+[3Blue1Brown Deep learning introduction videos 1-4](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&pp=iAQB)
+
+### Transformers <a name="transformers"></a>
+[3Blue1Brown deep learning introduction videos 5-6](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=5)
+
+[Basic introduction to how transformers work](https://hackernoon.com/essential-guide-to-transformer-models-in-machine-learning-dzz3tk8)
 
 ## Validation and selection of hyperparameters <a name="hyper"></a>
 Whatever is in scikit learn for basic regression. Weights & biases for deep learning.
