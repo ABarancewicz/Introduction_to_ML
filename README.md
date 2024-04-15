@@ -197,7 +197,7 @@ make sure you don't blindly trust what it gives you. To get the most out of Chat
 - What your variables and files are called
 - What exactly you are trying to do
 
-<b>PDB - python debugger</b>
+<b>Look into PDB - python debugger</b>
 
 ### Libraries
 Python libraries are collections of functions that can be downloaded and imported. Each one is generally built for a specific purpose, and effective use of pacakages is essential 
