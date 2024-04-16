@@ -300,7 +300,12 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 
 ## Deep Learning <a name="deep"></a>
 
-### Neural Networks <a name="nn"></a>
+### Backprop <a name="backprop"></a>
+
+### Multilayer perceptrons <a name="mlp"></a>
+
+
+### Recurrent Neural Networks <a name="rnn"></a>
 
 [Pytorch Lightning tutorial](https://lightning.ai/courses/deep-learning-fundamentals/)
 
