@@ -185,7 +185,8 @@ have good documentation explaining what functions expect as inputs, what they pr
 to familiarise yourself with documentation. What data types are expected in input? What does the function do? What is the datatype of the output? 
 
 Another good idea is to look at how your data flows through your code. You can do this by using print() statements to look at different variables at different stages of code, 
-or you can use the debugging mode in VScode to step through line by line and/or at specified break points and look at how variables change. 
+or you can use the debugging mode in VScode to step through line by line and/or at specified break points and look at how variables change. pdb, or [the python debugger](https://docs.python.org/3/library/pdb.html),
+is an alternative to VScode debugger with similar functionality. The main difference is pdb get coded into your script with special functions. 
 
 If all else fails, google and ChatGPT often have the solutions to your problems. Google will often give links to articles or Stack Overflow threads that are written by real people, 
 often experienced programmers. This means that often these solutions are correct, although may need some work to fit into your code. ChatGPT can provide tailored feedback on your code,
@@ -197,7 +198,7 @@ make sure you don't blindly trust what it gives you. To get the most out of Chat
 - What your variables and files are called
 - What exactly you are trying to do
 
-<b>Look into PDB - python debugger</b>
+Try [E2](https://github.com/ABarancewicz/Introduction_to_ML/tree/main/E2-debugging) to try some different debugging methods. 
 
 ### Libraries
 Python libraries are collections of functions that can be downloaded and imported. Each one is generally built for a specific purpose, and effective use of pacakages is essential 
