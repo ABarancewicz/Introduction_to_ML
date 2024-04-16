@@ -232,10 +232,22 @@ It is recommended that you make a virtual environment to use for all of the exer
 
 ## Basic Theory <a name="basic"></a>
 
-
 ### Calculus <a name="calc"></a>
+The two fundamental components of calculus are [derivatives](https://www.mathsisfun.com/calculus/derivatives-introduction.html) and [integrals](https://www.mathsisfun.com/calculus/integration-introduction.html). The derivative 
+of a function at a point is the gradient of the function at that point. This is at the heart of backpropagation (which we will discuss later), which is the optimisation method used for many machine learning architectures. Integration is effectively the opposite of 
+derivation and represents the area under a curve. It is not necessary to understand the mathematical foundations of integration or derivation, nor is it required to know how to calculate the integral or derivitive of a function as this 
+mathematics is in-built into the tools we will be using. You should, however have a general understanding of what an integral is, what a derivative is, and why we use them when we do. 
+
+If you want to go into more depth on calculus you can watch [this 3blue1brown series](https://youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&feature=shared).
 
 ### Linear Algebra <a name="algebra"></a>
+Linear algebvra is the branch of mathematics which includes vectors, matricies and tensors in [Euclidean space](https://en.wikipedia.org/wiki/Euclidean_space) (a simple 2d plane is an example of euclidean space, although there is no limit on number of dimensions). 
+The important part for us to understand are scalars, vectors, matricies and tensors; and their basic operations. The most commonly used operation is the [dot product](https://www.mathsisfun.com/algebra/matrix-multiplying.html) of matricies, which is used very frequently
+as a computationally efficient way to do calculations. [This article](https://medium.com/@_monitsharma/computational-linear-algebra-scalars-vectors-matrices-and-tensors-50e392df9ccc#:~:text=While%20scalars%20are%20zero%2Ddimensional,data%2C%20or%20time%20series%20data.) 
+goes into a bit more depth on scalars, vectors, matricies, and tensors. 
+
+There is also a [3blue1brown series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) on linear algebra.
+
 
 ### Dimensionality Reduction <a name="dim_red"></a>
 Note: dimensionality reduction methods should be fit to the training dataset without the testing dataset. If they are fit to the total dataset it is a form of [data leakage](https://datascientest.com/en/data-leakage-definition-and-prevention) and means validation with your testing dataset may not accurately reflect your models accuracy.
