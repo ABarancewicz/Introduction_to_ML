@@ -33,7 +33,7 @@
 - [Machine Learning Introduction](#ml)
   - [What is machine learning](#what_ml)
   - [Regression and Classification](#reg_clas)
-  - [Non-Deep vs Deep methods](non-deep_deep)
+  - [Supervised vs Unsupervised](sup_unsup)
 - [Vector representations](#)
   - [One-hot encoding](#one-hot)
   - [Biophys properties?](#)
@@ -189,8 +189,8 @@ or you can use the debugging mode in VScode to step through line by line and/or 
 is an alternative to VScode debugger with similar functionality. The main difference is pdb get coded into your script with special functions. 
 
 If all else fails, google and ChatGPT often have the solutions to your problems. Google will often give links to articles or Stack Overflow threads that are written by real people, 
-often experienced programmers. This means that often these solutions are correct, although may need some work to fit into your code. ChatGPT can provide tailored feedback on your code,
-although is also prone to making things up. It can be very useful, as the amount of code and literature it has been trained on it enormous, but it is important to remember it has no 
+often experienced programmers. This means that often these solutions are generally correct, although may need some work to fit into your code. ChatGPT can provide tailored feedback on your code,
+although is also prone to making things up. It can be very useful, as the amount of code and literature it has been trained on is enormous, but it is important to remember it has no 
 actual understanding of what it says (especially for complicated or uncommon code). It can also be great for writing code and finding functions and can save you a lot of time, although
 make sure you don't blindly trust what it gives you. To get the most out of ChatGPT I suggest that you be specific about:
 - What language you are coding in
@@ -248,17 +248,23 @@ goes into a bit more depth on scalars, vectors, matricies, and tensors.
 
 There is also a [3blue1brown series](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) on linear algebra.
 
-
-### Dimensionality Reduction <a name="dim_red"></a>
-Note: dimensionality reduction methods should be fit to the training dataset without the testing dataset. If they are fit to the total dataset it is a form of [data leakage](https://datascientest.com/en/data-leakage-definition-and-prevention) and means validation with your testing dataset may not accurately reflect your models accuracy.
-
 ## Phylogenetics <a name="phylo"></a>
-
+Get from Matt
 
 
 ## Sequence Space Visualisations <a name="seq_vis"></a>
+### Dimensionality Reduction <a name="dim_red"></a>
+Most ML datasets contain many features. Since each feature represents a dimension of the data, this means that the data is many dimensional. This makes it hard to visually represent datasets for human analysis since we need to present many-dimensional data on a two-dimensional screen. The most common solution to this problem is dimensionality reduction. Dimensionality reduction is the process of representing the most important patterns in the data in a lower dimensionality dataset. 
+
+For an explanation of dimensionality reduction and a brief overview of the types of dimensionality reduction, take a look at [this article](https://machinelearningmastery.com/dimensionality-reduction-for-machine-learning/).
+
 
 ### Principle component analysis <a name="pca"></a>
+One of the most common forms of dimensionality reduction is Principle component analysis. Principle component analysis works by finding the directions of highest variance in the data and using these as axes, known as principle components.
+
+[This IBM article](https://www.ibm.com/topics/principal-component-analysis)
+[This article on eigenvectors](https://medium.com/@dareyadewumi650/understanding-the-role-of-eigenvectors-and-eigenvalues-in-pca-dimensionality-reduction-10186dad0c5c)
+
 
 ### t-distributed stochastic neighbour embedding <a name="tsne"></a>
 
@@ -268,26 +274,40 @@ Note: dimensionality reduction methods should be fit to the training dataset wit
 
 [This explanation](https://umap-learn.readthedocs.io/en/latest/how_umap_works.html) is good.
 
+### Dimensionality reduction in an ML pipeline <a name=""></a>
+Dimensionality reduction methods should be fit to the training dataset without the testing dataset. If they are fit to the total dataset it is a form of [data leakage](https://datascientest.com/en/data-leakage-definition-and-prevention) and means validation with your testing dataset may not accurately reflect your model's accuracy.
 
 ## Machine Learning Introduction <a name="ml"></a>
 
 ### What is machine learning? <a name="what_ml"></a>
 
-Machine learning (ML) is the term used to describe the training of a mode, based on provided data. The training and use of a machine learning model may typically look like:
+Machine learning (ML) is the term used to describe the training of a mode, based on provided data. The fundamental steps to training and use of a machine learning model may look like:
 1. Data selection and preparation. Appropriate data is chosen and processed in a way that can be fed into an algorithm.
 2. Algorithm selection. Based on the chosen aim and dataset an appropriate algorithm must be chosen. Some commonly used types of algorythms are listed in the [non-deep]() and [deep]() ML sections of this guide. 
 3.  Model training. The prepared data is split into a training set and validation set. The model's parameters are optimised to the training set. The validation set is used to verify that improvement in model performance is due to learning meaningful patterns in the data, and not just 'memorising' the training dataset.
 4.  Using the model. Once the model is trained it can be applied to any collected or simulated data. 
 
 
-### Regression and Classification <a name="reg_clas"></a>
+### Applications of Machine Learning <a name="reg_clas"></a>
+Machine learning has many applications (from [pytorch](https://lightning.ai/courses/deep-learning-fundamentals/unit-1/unit-1-2/)), such as:
+1. Making predictions
+2. Compressing Data
+3. Generating data
+4. Learning a series of actions
+
+Generally in biology, we are interested in making predictions. This means trying to predict a variable, known as the label, for each data point. For example, predicting the stability or activity 
+of a protein. Prediction tasks can be split into regression and classification 
+tasks. 
+- Regression is the process of predicting a continuous label, such as the melting point of an enzyme
+- Classification is the process of predicting a categorical label, such as if a protein is active or inactive. 
 
 
+### Supervised vs Unsupervised <a name="sup_unsup"></a>
+Machine learning can further be categorised into supervised and unsupervised tasks. 
+- Supervised machine learning means each data point in the training dataset has been assigned a label value. When the model is trained it is trying to maximise how good at predicting this value it is.
+- Unsupervised machine learning means that no label is given. An unsupervised model may try to learn patterns in the data to generate more data of that kind or compress the data. 
 
-### Non-deep vs Deep <a name="non-deep_deep"></a>
-
-### Supervised vs Non-supervised <a name="sup_nonsup"></a>
-
+Prediction tasks are generally supervised, so we will mainly focus on methods of prediction.
 
 ## Traditional Machine Learning <a name="trad_ml"></a>
 
@@ -312,16 +332,16 @@ k-nearest neighbours is one of the simplest methods of ML-based classification a
 
 ## Deep Learning <a name="deep"></a>
 
-### Backprop <a name="backprop"></a>
+### Backpropagation <a name="backprop"></a>
 
 ### Multilayer perceptrons <a name="mlp"></a>
+[Pytorch Lightning tutorial](https://lightning.ai/courses/deep-learning-fundamentals/)
+
+[3Blue1Brown Deep learning introduction videos 1-4](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&pp=iAQB)
 
 
 ### Recurrent Neural Networks <a name="rnn"></a>
 
-[Pytorch Lightning tutorial](https://lightning.ai/courses/deep-learning-fundamentals/)
-
-[3Blue1Brown Deep learning introduction videos 1-4](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&pp=iAQB)
 
 ### Transformers <a name="transformers"></a>
 [3Blue1Brown deep learning introduction videos 5-6](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=5)
