@@ -312,6 +312,9 @@ Prediction tasks are generally supervised, so we will mainly focus on methods of
 ### Feature normalisation
 https://lightning.ai/courses/deep-learning-fundamentals/3-0-overview-model-training-in-pytorch/3-7-feature-normalization-parts-1-2/
 
+## Vector representations
+
+
 ## Traditional Machine Learning <a name="trad_ml"></a>
 
 ### k-nearest neighbours <a name="knn"></a>
